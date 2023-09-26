@@ -22,3 +22,31 @@ h1 {
     vertical-align: middle;
     font-size: 40px;
 }
+
+.cont-inpt{
+    margin: 30px 20% 0px 20%;
+    background-color: white;
+    padding:20px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+.cont-inpt > input{
+    width: 100px;
+    height: 35px;
+     border: 1px solid;
+     border-radius: 8px;
+     font-size: 12px;
+    font-weight:bold;
+}
+
+#add-task{
+    background-color: #14aaf5;
+    color: white;
+    border-color: #14aaf5;
+}
+
+#add-section{
+    color: #c5ccd1;
+    border-color: #c5ccd1;
+    background-color: white;
+}

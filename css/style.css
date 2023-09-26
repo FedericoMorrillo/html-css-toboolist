@@ -23,30 +23,103 @@ h1 {
     font-size: 40px;
 }
 
-.cont-inpt{
+.cont-inpt {
     margin: 30px 20% 0px 20%;
     background-color: white;
-    padding:20px 30px 10px 30px;
+    padding: 20px 40px 10px 40px;
     border-radius: 10px;
 }
 
-.cont-inpt > input{
+.cont-inpt>input {
     width: 100px;
     height: 35px;
-     border: 1px solid;
-     border-radius: 8px;
-     font-size: 12px;
-    font-weight:bold;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-#add-task{
+#add-task {
     background-color: #14aaf5;
     color: white;
     border-color: #14aaf5;
 }
 
-#add-section{
+#add-section {
     color: #c5ccd1;
     border-color: #c5ccd1;
     background-color: white;
+}
+
+section {
+    margin: 2px 20% 20px 20%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px 20px 10px;
+    font-size: 25px;
+}
+
+.filtro {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+h2{
+    display: inline-block;
+}
+
+.head-list{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.element{
+    display: inline-block;
+width:20px;
+height:20px;
+border: 2px solid #000000;
+line-height: 20px;
+border-radius: 50px;
+}
+
+.check{
+    color: #4ccfb8;
+    border-color: #4ccfb8;
+    margin-right: 10px;
+}
+
+.cross{
+    color: #ff4343;
+    border-color: #ff4343;
+    margin-right: 10px;
+}
+#editorial {
+    background-color: #09a9ed;
+}
+
+#q1-goals{
+    background-color: #ab5de6;
+}
+
+#recruiting{
+    background-color: #2cc6ab;
+}
+
+#mobile{
+    background-color:#ff9b00;
+}
+
+#website{
+    background-color: #ec4a9d;
+}
+
+#sales{
+    background-color: #a3d116;
 }
